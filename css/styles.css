@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif;
+
+}
+
+/*********************Title-section*****************/
+#title {
+  text-align: left;
+}
+.titlu-mare{
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 90px;
+  margin-left: 0;
+}
+.cactus-img {
+  width: 98%;
+  margin-left: 20px;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+/*****************nav-bar*******************/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.3rem;
+  color: #6c757d;
+}
+.nav-link {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+/*************************Sectii***********************/
+.fundal-alb{
+  background-color: #fff;
+}
+.fundal-colorat{
+background-color:  #28df99;
+}
+/******************Butoane***************/
+.btn-position {
+  margin-top: 60px;
+}
+/******************************Caracteristi************/
+#caracteristici{
+  height: 450px;
+  padding: 30px;
+  position: relative;
+  top: 80px;
+}
+.caracteristici-text{
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+.continut {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.fas-car {
+  color: #99f3bd;
+}
+
+.fas-car:hover {
+  color: #28df99;
+}
+
+/*********************Testimoniale*****************/
+#testimonials {
+  background-color: #99f3bd;
+}
+
+.testimonial-text {
+  position: relative;
+  top: 60px;
+  line-height: 3.5rem;
+}
+
+.nume-testimoniale{
+  position: relative;
+  top: 55px;
+}
+
+.poza-anne {
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 7rem;
+}
+/*************************Carusel*********************/
+.carousel-item{
+  padding: 7% 10%;
+}
+
+/***************press**********************/
+#press {
+  background-color: #99f3bd;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.marime-simbol {
+  width: 200px;
+}
+
+/**************plan**********************/
+#plan {
+    padding: 7% 13%;
+}
+.carduri{
+  padding-top: 20px;
+}
+/*******************************MEDIA-QUERY*********************/
+@media(max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .cactus {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #features {
+    height: 650px;
+    position: relative;
+    top: 25px;
+  }
+
+  .parere {
+    padding-bottom: 20px
+  }
+
+
+}
+/********************
+@media(max-width:500px) {
+  .cactus {
+    width: 140%;
+    margin-left: 0;
+    position: relative;
+    right: 40px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+  #features{
+    height: 850px;
+}
+}
+****************/
+/********************************************************/
+#cta{
+    padding-top: 5%;
+}
+.gaseste{
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 40px;
+}
+ #footer{
+   padding-bottom: 10px;
+ }
+.contact-media{
+  color: #fff;
+}
